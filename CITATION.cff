@@ -1,0 +1,12 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Gurney
+  given-names: Nikolos
+- family-names: Marsella
+  given-names: Stacy
+orcid: https://orcid.org/0000-0003-3479-2037
+title:NikGurney/tomu_sim: ToM-U Simulation Build for Draft
+version: v.1.0.0
+date-released: 2026-11-24
+                                
