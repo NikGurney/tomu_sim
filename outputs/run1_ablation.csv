@@ -1,0 +1,5 @@
+discounts,typed,attribution,confidence,classification,diagonal
+True,True,popcorn,0.942414091611,ACCEPTED,True
+True,False,popcorn,0.905817174515,ACCEPTED,False
+False,True,popcorn,0.760971113437,ACCEPTED_LOW,False
+False,False,chocolate,0.751643535427,ACCEPTED_LOW,True

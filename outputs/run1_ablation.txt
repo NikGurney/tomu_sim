@@ -1,0 +1,8 @@
+Run 1 — source-discount/source-typing ablation (* = headline diagonal)
+
+discounts  typed  attribution  confidence  classification  diagonal
+---------  -----  -----------  ----------  --------------  --------
+T          T      popcorn      0.942414    ACCEPTED        *       
+T          F      popcorn      0.905817    ACCEPTED                
+F          T      popcorn      0.760971    ACCEPTED_LOW            
+F          F      chocolate    0.751644    ACCEPTED_LOW    *

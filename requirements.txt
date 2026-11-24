@@ -1,0 +1,2 @@
+# Optional. Only needed to render PDF figures; all results are produced without it.
+# matplotlib>=3.7,<4

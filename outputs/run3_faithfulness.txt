@@ -1,0 +1,46 @@
+Faithfulness check — verifies the implementation matches the worked example. Not evidence for the theory.
+
+variant    attribution  confidence  classification  ell  floored
+---------  -----------  ----------  --------------  ---  -------
+standard   chocolate    1.000000    ACCEPTED        1    False  
+trusted    popcorn      0.942414    ACCEPTED        2    False  
+naive      absent       1.000000    ACCEPTED        1    False  
+motivated  popcorn      0.942414    ACCEPTED        3    True   
+
+Motivated episode
+session  attribution  confidence  classification  ell
+-------  -----------  ----------  --------------  ---
+1        pickle       0.000000    REJECTED        3  
+2        popcorn      0.942414    ACCEPTED        3  
+residue edge: a2->o_pickle
+post-rejection cred: 0.588235
+
+Trace: standard
+ell  candidate   fit       confidence
+  1  chocolate   1.000000    1.000000
+halt: confidence exceeded TAU_HIGH
+
+Trace: trusted
+ell  candidate   fit       confidence
+  1  chocolate   0.061350    0.061350
+  2  popcorn     0.938650    0.942414
+halt: confidence exceeded TAU_HIGH
+
+Trace: naive
+ell  candidate   fit       confidence
+  1  absent      1.000000    1.000000
+halt: confidence exceeded TAU_HIGH
+
+Trace: motivated/session1
+ell  candidate   fit       confidence
+  1  pickle[0.6]  0.000000    0.000000
+  2  pickle[0.8]  0.000000    0.000000
+  3  pickle[1.0]  0.000000    0.000000
+halt: sophistication ceiling reached
+
+Trace: motivated/session2
+ell  candidate   fit       confidence
+  1  chocolate   0.061350    0.061350
+  2  pickle      0.000000    0.061350
+  3  popcorn     0.938650    0.942414
+halt: confidence exceeded TAU_HIGH

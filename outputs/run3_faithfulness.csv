@@ -1,0 +1,5 @@
+variant,attribution,confidence,classification,ell,implicated_floored,session1_attribution,session1_confidence,session1_classification,session1_ell,residue_edge,post_rejection_cred,session2_attribution,session2_confidence,session2_classification,session2_ell
+standard,chocolate,1.000000000000,ACCEPTED,1,False,,,,,,,,,,
+trusted,popcorn,0.942414091611,ACCEPTED,2,False,,,,,,,,,,
+naive,absent,1.000000000000,ACCEPTED,1,False,,,,,,,,,,
+motivated,popcorn,0.942414091611,ACCEPTED,3,True,pickle,0.000000000000,REJECTED,3,a2->o_pickle,0.588235294118,popcorn,0.942414091611,ACCEPTED,3

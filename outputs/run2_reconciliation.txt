@@ -1,0 +1,21 @@
+Run 2 — reconciliation residue divergence
+
+termination       n_floored  weakest_pair_share
+----------------  ---------  ------------------
+min               2          1.000000          
+weighted_average  6          0.333333          
+
+termination       edge           cred      floor   
+----------------  -------------  --------  --------
+min               a1->a2         1.000000  0.000000
+min               a1->a3         0.177479  1.000000
+min               a1->a4         1.000000  0.000000
+min               a2->a2_source  1.000000  0.000000
+min               a3->a3_source  0.177479  1.000000
+min               a4->a4_source  1.000000  0.000000
+weighted_average  a1->a2         0.247256  1.000000
+weighted_average  a1->a3         0.177479  1.000000
+weighted_average  a1->a4         0.211602  1.000000
+weighted_average  a2->a2_source  0.247256  1.000000
+weighted_average  a3->a3_source  0.177479  1.000000
+weighted_average  a4->a4_source  0.211602  1.000000
